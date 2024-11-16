@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Magic Bus Organic Store</title>
     <style>
         div{
             display: inline-block;
@@ -17,6 +17,18 @@
             width: auto;
             height: 110px;
         }
+        .fruits, .vegetables {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .fruits li, .vegetables li {
+            display: inline-block;
+            margin: 10px;
+        }
+        .fruits img, .vegetables img {
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body background="aqua">
@@ -27,26 +39,25 @@
     <hr>
     <center>
     <div>
-     <ul>
         <h1>Fruits</h1>
-        <div><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://image.shutterstock.com/image-photo/red-apple-cut-half-water-260nw-2532255795.jpg" height="200px" width="200px" alt="apple"></a><br><h3>Apple</h3></ol>  </div>
-        <div><ol><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa3K1PkfEgVzc6JeayE-uGwejpsBDBbVBUw&s" height="200px" width="200px" alt="Orange"></a><br><h3>Orange</h3></ol> </div>
-        <div><ol><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://homedelivery.ramachandran.in/media/catalog/product/cache/04c5c5c4276fe9dba74400abc896c29c/4/9/491111A001001.jpg" height="200px" width="200px" alt="Banana"></a><br><h3>Banana</h3></ol> </div>
-        <div><ol><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://www.seeds-gallery.shop/9177-large_default/jackfruit-seeds-artocarpus-heterophyllus.jpg" height="200px" width="200px"alt="Jackfruit"></a><br><h3>Jackfruit</h3></ol> </div>
-        <div><ol><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://images.freshop.com/2396824/45b2f2c3c8c5c4afa4e2d75004005949_large.png" height="200px" width="200px"alt="pineapple"></a><br><h3>Pineapple</h3></ol> </div>
-     </ul>
-     <hr>
-     <ul>
+        <ul class="fruits">
+            <li><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://image.shutterstock.com/image-photo/red-apple-cut-half-water-260nw-2532255795.jpg" height="200px" width="200px" alt="apple"></a><br><h3>Apple</h3></li>
+            <li><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsa3K1PkfEgVzc6JeayE-uGwejpsBDBbVBUw&s" height="200px" width="200px" alt="Orange"></a><br><h3>Orange</h3></li>
+            <li><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://homedelivery.ramachandran.in/media/catalog/product/cache/04c5c5c4276fe9dba74400abc896c29c/4/9/491111A001001.jpg" height="200px" width="200px" alt="Banana"></a><br><h3>Banana</h3></li>
+            <li><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://www.seeds-gallery.shop/9177-large_default/jackfruit-seeds-artocarpus-heterophyllus.jpg" height="200px" width="200px"alt="Jackfruit"></a><br><h3>Jackfruit</h3></li>
+            <li><a href="https://www.healthline.com/nutrition/10-health-benefits-of-apples"><img src="https://images.freshop.com/2396824/45b2f2c3c8c5c4afa4e2d75004005949_large.png" height="200px" width="200px"alt="pineapple"></a><br><h3>Pineapple</h3></li>
+        </ul>
+        <hr>
         <h1>Vegetables</h1>
-        <div><ol><a href=""><img src="https://produits.bienmanger.com/36700-0w0h0_Organic_Red_Onion_From_Italy.jpg" height="200px" width="200px" alt="apple"></a><br><h3>Onion</h3></ol> </div>
-        <div><ol><a href=""><img src="https://naturessoulshop.com/wp-content/uploads/2020/07/tomatoes.jpg" height="200px" width="200px" alt="Tomato "></a><br><h3>Tomato</h3></ol> </div>
-        <div><ol><a href=""><img src="https://i.pinimg.com/originals/3b/22/b6/3b22b6fd0ca629f87eeb46b701a91605.png" height="200px" width="200px" alt="Potato"></a><br><h3>Potato</h3></ol> </div>   
-        <div><ol><a href=""><img src="https://marhabaworld.com/wp-content/uploads/2021/11/1168946-1.jpg" height="200px" width="200px" alt="Brinjal"></a><br><h3>Brinjal</h3></ol> </div>       
-        <div><ol><a href=""><img src="https://www.best-agro.com/wp-content/uploads/2023/12/Organic-Categories-03.png" height="200px" width="200px" alt="carrot"></a><br><h3>Carrot</h3></ol> </div>>            
-     </ul>
+        <ul class="vegetables">
+            <li><a href=""><img src="https://produits.bienmanger.com/36700-0w0h0_Organic_Red_Onion_From_Italy.jpg" height="200px" width="200px" alt="apple"></a><br><h3>Onion</h3></li>
+            <li><a href=""><img src="https://naturessoulshop.com/wp-content/uploads/2020/07/tomatoes.jpg" height="200px" width="200px" alt="Tomato "></a><br><h3>Tomato</h3></li>
+            <li><a href=""><img src="https://i.pinimg.com/originals/3b/22/b6/3b22b6fd0ca629f87eeb46b701a91605.png" height="200px" width="200px" alt="Potato"></a><br><h3>Potato</h3></li>
+            <li><a href=""><img src="https://marhabaworld.com/wp-content/uploads/2021/11/1168946-1.jpg" height="200px" width="200px" alt="Brinjal"></a><br><h3>Brinjal</h3></li>
+            <li><a href=""><img src="https://www.best-agro.com/wp-content/uploads/2023/12/Organic-Categories-03.png" height="200px" width="200px" alt="carrot"></a><br><h3>Carrot</h3></li>
+        </ul>
     </div>
 </center>
-    <hr>
-    
+<hr>
 </body>
 </html>
