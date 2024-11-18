@@ -1,0 +1,121 @@
+
+
+child - nav>li>ul       
+
+<nav>
+    <li>
+        <ul></ul>
+    </li>
+</nav>
+
+
+nav>ul>li*5
+
+<nav>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+
+siblings
+
+div+p+blockquote
+
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+climbup
+div+div>p+nav^p
+<div></div>
+<div>
+    <p></p>
+    <nav></nav>
+</div>
+<p></p>
+
+p*5
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+div.item1
+ <div class="item1"></div>
+
+div#item1
+<div id="item1"></div>
+
+p#item1.one
+<p id="item1" class="one"></p>
+
+grouping
+
+div>(header>ul>li*3>a)+footer>p
+<div>
+    <header>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+
+(div>dl(dt+dt))
+
+custom attribute
+
+p[title="hello"]
+<p title="hello"></p>
+
+text attribute
+a{hello}
+<a href="">hello</a>
+
+p{hello}+a{everyone}
+
+
+item numbering
+ul>li.item$*5
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+
+
+h$[title=item$]{Header $}*3
+
+<h1 title="item1">Header 1</h1>
+<h2 title="item2">Header 2</h2>
+<h3 title="item3">Header 3</h3>
+
+ul>li.item$$$*5
+<ul>
+    <li class="item001"></li>
+    <li class="item002"></li>
+    <li class="item003"></li>
+    <li class="item004"></li>
+    <li class="item005"></li>
+</ul>
+
+
+ul>li.item$@-*4
+<ul>
+    <li class="item4"></li>
+    <li class="item3"></li>
+    <li class="item2"></li>
+    <li class="item1"></li>
+</ul>
