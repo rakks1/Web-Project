@@ -10,9 +10,6 @@ table ,form,td{
    padding-bottom: 20px;
    padding-right: 20px;
 }
-#head,#one,#two{
-    counter-reset: ;
-}
 *{
     color: brown;
 }
