@@ -1,15 +1,70 @@
-.one{
-    background-color: rgb(119, 183, 138);
-    width: 650px;
-    height: 400px;
-    border: 20px;color: black;
-    display: inline-block;
-    }
-table ,form,td{
-   padding-left: 50PX;
-   padding-bottom: 20px;
-   padding-right: 20px;
+
+body{
+    background-image: url("https://media.glamour.com/photos/64e4c40d7a845edcc2cf9fe4/master/w_1920,c_limit/GL_8.22_Pumpkin-Spice-Lattejpg.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    font-family: sans-serif;
 }
-*{
-    color: brown;
+
+
+
+.bgc{
+    background-color:#648966 ;
+}
+.txtcol{
+    color:rgba(26, 27, 26, 0.838);
+}
+.signup{
+    color:rgba(255, 255, 255, 0.838);
+}
+.already{
+    color: #fefefe89;
+}
+footer {
+    padding:20px;
+}
+
+
+#a1{
+    width: 400px;
+    height: 570px;
+    background-color: #1d171781;
+    background-blend-mode:luminosity;
+    border-radius: 20px;
+    margin: 60px;
+    display: inline-block;
+    backdrop-filter:blur(5px);
+}
+
+ input{
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    color: #fdfdfd;
+    border-radius: 5px;
+    border-color: rgba(240, 248, 255, 0);
+ }
+
+ ::placeholder{
+    color: hsla(0, 0%, 91%, 0.902);
+ }
+
+ 
+#but1,#but2{
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: #64896600;
+    filter: drop-shadow(20px);
+    backdrop-filter:blur(5px);
+}
+
+#but2{
+    color: white;
+    background-color: #317935;
+}
+#but1{
+    background-color: white;
 }
